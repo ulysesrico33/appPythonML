@@ -1,0 +1,52 @@
+------START OF CONCLUSIONS-------
+1)NLP has lots of techniques: Vectorizer, TD-IDF, Latent Semantics Analytics
+2)The first step is to Vectorize each document, if we have several docs, then it turns into a matrix
+2.1) Hence we talk about to transform CORPUS (Collection of documents) into a Space Vector Model (matrix)
+2.2) This matrix is oftenly, in ML, a matrix of rows (documents) and columns (terms)
+2.3) The rows can be each document, sentence or even the word it self, which will turn into a word vs word matrix.
+3)The base is a matrix which can turn into different measures: TD-IDF for example
+4)TD-IDF seems to be the base for LSA
+
+Principal topics for this project:
+-NLP, LSA, PCA, TD-IDF, Space Vector Model, EDA (Exploratory Data Analysis)
+-NLP techniques (there are more...) :Sentiment analysis, Topic modeling and Text Generation
+-Topic Modeling: Latent Dirichlet Allocation (LDA),-Non-Negative Matrix Factorization (NMF),LSA (Latent Semantic Analysis)
+-When using topic modeling algorithms , it asks por "components", each component is related to the number of sources this may vary
+for example, in thesis, if they are 20 K thesis it doesn't mean there should be 20 K components
+-Probabilistic inference: Latent Dirichlet Allocation, Hierarchical Dirichlet Processing
+-LSA vs LDA: same input, similar output, different math.
+-SVD: Singular Value Decomposition is applied to a term-frequency matrix
+-There are several existing algorithms you can use to perform the topic modeling. The most common of it are, Latent Semantic Analysis (LSA/LSI), Probabilistic Latent Semantic Analysis (pLSA), and Latent Dirichlet Allocation (LDA)
+
+-It exists some relation between Data Fit (aka Linear regression, fit squares) , SVD and PCA.
+
+-----------END OF CONCLUSIONS--------
+
+Start ML with 10th period
+   -Obtener Término frecuencia y TF IDF con los nuevos campos
+   -Obtener top 100, top 50
+   -Modelo principal
+      text_content
+      heading
+      subject
+      type_of_thesis
+Prueba 2:
+-Con 1,2,3 grams obtener las palabras significativas con 5 componentes con campos sin filtro , con varias técnicas, con gráfica      
+
+Coherence values (Results from code)
+
+LDA Coherence: 0.46655122251053244
+LSI Coherence: 0.363933021958608
+HDP Coherence: 0.47022234102061455
+
+LDA Coherence: 	0.47
+LSI Coherence: 	0.36
+HDP Coherence: 	0.47
+
+
+-----Bibliograpgy----
+
+MAtriz de varianza y covarianza:https://economipedia.com/definiciones/matriz-varianza-covarianza.html
+Understanding SVD: https://towardsdatascience.com/understanding-singular-value-decomposition-and-its-application-in-data-science-388a54be95d
+
+---End bibliography----
